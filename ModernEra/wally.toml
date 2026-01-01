@@ -1,0 +1,13 @@
+[package]
+name = "author/project-name"
+version = "0.0.0"
+authors = ["author"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+[dependencies]
+signal = "sleitnick/signal@2.0.1"
+
+[server-dependencies]
+profilestore = "lm-loleris/profilestore@1.0.3"
